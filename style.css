@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0 40px;
+}
+
+header{
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 68px;
+}
+
+nav p{
+    text-decoration: none;
+    color: #2C2825;
+    font-weight: bold;
+    font-family: "Caprasimo", serif;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px
+}
+.nav-items a{
+    text-decoration: none;
+    color: #2C2825
+}
+
+.head-main{
+
+}
+
+.head-main img{
+    width: 93vw;
+}
+
+hr{
+
+}
