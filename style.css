@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 40px;
+  min-height: 82px;
+  align-items: center;
+}
+
+.header-logo-gallery {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 92%;
+  letter-spacing: -3%;
+  color: #2c2825;
+}
+
+.header-nav-gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.header-nav-gallery a {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style:normal;
+  text-decoration: none;
+  color: #2c2825;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 2%;
+}
+
+.header-hr {
+  margin: 0 40px;
+}
